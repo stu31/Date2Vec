@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-from distutils.core import setup
+#from distutils.core import setup
 from setuptools import setup, find_packages
 
 setup(name='Date2Vec',
@@ -9,5 +9,5 @@ setup(name='Date2Vec',
       author='Surya Kant Sahu',
       author_email='surya.oju@gmail.com',
       url='https://github.com/ojus1/Date2Vec',
-      packages=find_packages()
+      packages = ['.', '.d2v_model']
      )
