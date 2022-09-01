@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
-#from distutils.core import setup
-from setuptools import setup, find_packages
+from distutils.core import setup
+from setuptools import find_packages
 
 setup(name='Date2Vec',
       version='1.0',
@@ -10,5 +10,5 @@ setup(name='Date2Vec',
       author_email='surya.oju@gmail.com',
       url='https://github.com/ojus1/Date2Vec',
       package_dir = {"": "."},
-      packages=find_packages()
+      packages=find_packages('.')
      )
