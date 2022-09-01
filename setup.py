@@ -11,5 +11,5 @@ setup(name='Date2Vec',
       url='https://github.com/ojus1/Date2Vec',
       package_dir = {"": "."},
       packages=['.'],
-      package_data={'d2v_model': ['d2v_model/*.pth']},
+      package_data={'': ['d2v_model/*.pth']},
      )
