@@ -10,5 +10,5 @@ setup(name='Date2Vec',
       author_email='surya.oju@gmail.com',
       url='https://github.com/ojus1/Date2Vec',
       package_dir = {"": "."},
-      packages=['.', '.Model', '.d2v_model']
+      packages=['.', '.models', '.d2v_model', '.assets']
      )
